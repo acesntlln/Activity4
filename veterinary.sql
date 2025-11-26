@@ -172,4 +172,3 @@ JOIN appointments ap ON a.animalid = ap.animalid
 GROUP BY a.name
 ORDER BY total_appointments DESC
 LIMIT 1;
- 
